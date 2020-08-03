@@ -7,9 +7,8 @@
   <!-- BUT DO NOT REMOVE OR CHANGE THE SECOND LINE IN !!! -->
   <!-- Do whatever you want with this skin, but don't tell it's yours, or your idea -->
   <!-- Head -->
-  <!-- Modification for the image OpenFIX by BlackFish (c)2020 -->
-  <!-- Don't delete the seventh line!!! -->
-  <!-- Head -->
+  <!-- PLi-FullNightHD-FIX, modification for the image OpenFIX by BlackFish (c)2020 -->
+  <!-- DO NOT DELETE OR MODIFY THIS FILE FROM ITS BEGINNING TO THE END OF THIS SENTENCE! -->
 
   <output id="0">
     <resolution bpp="32" xres="1920" yres="1080" />
@@ -2171,35 +2170,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
     <widget name="AboutScrollLabel" font="Regular;28" position="780,119" size="1110,880" halign="center" transparent="1" zPosition="2" />
   </screen>
   <!-- Service Info BF -->
-  <screen name="ServiceInfo" position="fill" title="Service Info" flags="wfNoBorder">
-    <panel name="PigTemplate" />
-    <panel name="Buttons_all_rgyb" />
-    <widget name="infolist" position="781,122" size="1110,856" font="Regular; 28" itemHeight="45" selectionDisabled="1" />
-  </screen>
-  <screen name="SimpleChannelSelection" position="0,0" size="1920,1080" title="Channel Selection" flags="wfNoBorder">
-    <panel name="PigTemplate" />
-    <panel name="Buttons_all_rgyb" />
-    <panel name="Menu_div_stint" />
-    <widget name="list" position="784,116" size="1110,811" foregroundColor="foreground" foregroundColorSelected="description" colorServiceDescription="description" colorServiceDescriptionSelected="foreground" colorAdditionalInfo="foreground" backgroundColor="background" backgroundColorMarked="background" backgroundColorMarkedSelected="dark_black" colorEventProgressbarBorder="dark" colorEventProgressbarBorderSelected="description" foregroundColorMarked="foreground" foregroundColorMarkedSelected="green" foregroundColorServiceNotAvail="line" picServiceEventProgressbar="FullHDLine/bg/bg_grey/prog_gr.png" serviceNumberFont="Regular;28" serviceNameFont="Regular;28" serviceInfoFont="Regular;28" additionalInfoFont="Regular;26" serviceItemHeight="45" scrollbarMode="showOnDemand" scrollbarWidth="8" scrollbarSliderBorderColor="description" scrollbarSliderForegroundColor="description" progressbarHeight="10" progressBarWidth="70" />
-    <widget source="ServiceEvent" render="Label" position="776,936" size="550,35" font="Regular;26" foregroundColor="description" valign="center" halign="center">
-      <convert type="TransponderInfo" />
-    </widget>
-    <widget source="ServiceEvent" render="Label" position="1327,934" size="563,35" font="Regular; 28" halign="center" valign="center" foregroundColor="description" noWrap="1">
-      <convert type="ServiceName">Reference</convert>
-    </widget>
-  </screen>
-  <screen name="SlimChannelSelection" position="fill" size="1680,1080" title="Channel Selection" flags="wfNoBorder">
-    <panel name="PigTemplate" />
-    <panel name="Buttons_all_rgyb" />
-    <panel name="Menu_div_stint" />
-    <widget name="list" position="785,121" size="1110,811" foregroundColor="foreground" foregroundColorSelected="description" colorServiceDescription="description" colorServiceDescriptionSelected="foreground" colorAdditionalInfo="foreground" backgroundColor="background" backgroundColorMarked="background" backgroundColorMarkedSelected="dark_black" colorEventProgressbarBorder="dark" colorEventProgressbarBorderSelected="description" foregroundColorMarked="foreground" foregroundColorMarkedSelected="green" foregroundColorServiceNotAvail="line" picServiceEventProgressbar="FullHDLine/bg/bg_grey/prog_gr.png" serviceNumberFont="Regular;28" serviceNameFont="Regular;28" serviceInfoFont="Regular;28" additionalInfoFont="Regular;26" serviceItemHeight="45" scrollbarMode="showOnDemand" scrollbarWidth="8" scrollbarSliderBorderColor="description" scrollbarSliderForegroundColor="description" progressbarHeight="10" progressBarWidth="70" />
-    <widget source="ServiceEvent" render="Label" position="789,929" size="550,35" font="Regular;26" foregroundColor="description" valign="center" halign="center">
-      <convert type="TransponderInfo" />
-    </widget>
-    <widget source="ServiceEvent" render="Label" position="1347,932" size="548,35" font="Regular; 28" halign="center" valign="center" foregroundColor="description" noWrap="1">
-      <convert type="ServiceName">Reference</convert>
-    </widget>
-  </screen>
+
   <!-- Softcam Setup BF -->
   <screen name="SoftcamSetup" position="fill" flags="wfNoBorder">
     <panel name="PigTemplate" />
